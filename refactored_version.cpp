@@ -9,7 +9,7 @@ class Node {
     public:
         Node(int value){
             this->value = value;
-            this->next = nullptr;
+            next = nullptr;
         }
 
         int getValue(){
